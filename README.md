@@ -8,10 +8,6 @@ The application allows users to explore properties in Addis Ababa, filter listin
 
 **Live application:** Add your Posit Connect Cloud URL here
 
-## 📸 Project Preview
-
-Add screenshots of the application here.
-
 ## ✨ Features
 
 * 🔎 Property search and filtering
