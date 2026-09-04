@@ -1,80 +1,155 @@
-# 🏠 Housing Explorer — Ethiopia Edition
+# 🏠 Capital Crest Housing Explorer
 
-An interactive housing data dashboard built with Python, Shiny for Python, Pandas, and Plotly.
+An interactive real-estate analytics dashboard built with **Python, Shiny for Python, Pandas, and Plotly**.
 
-The application allows users to explore Ethiopian housing properties, compare prices, filter properties based on their requirements, and receive property recommendations.
+The application allows users to explore properties in Addis Ababa, filter listings, analyze the housing market, compare properties, estimate mortgage payments, and save favorite properties.
 
-## 🚀 Features
+## 🚀 Live Demo
 
-### 🔎 Interactive Filters
+**Live application:** Add your Posit Connect Cloud URL here
 
-Users can filter properties by:
+## 📸 Project Preview
 
-- Location
-- Minimum price
-- Maximum price
-- Maximum bedrooms
-- Minimum bathrooms
-- Property type
+Add screenshots of the application here.
 
-### 📊 Property Overview
+## ✨ Features
 
-The dashboard displays:
-
-- Number of matching properties
-- Average property price
-- Average number of bedrooms
-
-### 🏘️ Property Table
-
-Users can view the available properties and their:
-
-- Location
-- Price
-- Bedrooms
-- Bathrooms
-- Area
-- Property type
-
-### 📈 Data Visualization
-
-The dashboard includes interactive charts for:
-
-- Average property price by location
-- Number of properties by location
-- Property size vs. price
-
-### 🤖 Housing Helper
-
-The built-in housing recommendation system allows users to enter:
-
-- Maximum budget
-- Required bedrooms
-- Preferred property type
-
-The application then analyzes matching properties and recommends the best price-to-size value.
+* 🔎 Property search and filtering
+* 📍 Location-based property exploration
+* 🏠 Property type filtering
+* 💰 Maximum price filtering
+* 📊 Interactive market analytics
+* 🗺️ Interactive property location map
+* 🏡 Detailed property information
+* ❤️ Save favorite properties
+* 💵 Mortgage payment estimator
+* 📅 Request-a-viewing form
+* 📱 Responsive design for desktop and mobile
+* 📥 Download saved properties as CSV
 
 ## 🛠️ Technologies
 
-- Python
-- Shiny for Python
-- Pandas
-- Plotly
-- HTML
-- CSS
-- Git
-- GitHub
+* **Python**
+* **Shiny for Python**
+* **Pandas**
+* **Plotly**
+* **ShinyWidgets**
+* **HTML**
+* **CSS**
+* **Git & GitHub**
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 housing-explorer/
-│
 ├── app.py
-│
-├── data/
-│   └── housing.csv
-│
-├── .venv/
-│
-└── README.md
+├── requirements.txt
+├── README.md
+└── www/
+    └── static assets
+```
+
+## ⚙️ Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/milkyasmekonneng/housing-explorer.git
+cd housing-explorer
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the application:
+
+```bash
+python -m shiny run --reload --port 8001 app.py
+```
+
+Then open the local URL shown in the terminal.
+
+## 📊 Application Sections
+
+### Market Overview
+
+Displays key housing-market indicators including:
+
+* Number of properties
+* Average property price
+* Lowest property price
+* Highest property price
+
+### Featured Properties
+
+Users can browse available properties and view detailed information including:
+
+* Location
+* Property type
+* Price
+* Bedrooms
+* Bathrooms
+* Size
+* Amenities
+
+### Property Locations
+
+An interactive map displays the geographical distribution of properties.
+
+### Market Analytics
+
+Interactive Plotly visualizations help users understand:
+
+* Property type distribution
+* Relationship between property size and price
+
+### Mortgage Estimator
+
+Users can estimate monthly mortgage payments by entering:
+
+* Property price
+* Down payment
+* Interest rate
+* Loan term
+
+### Saved Properties
+
+Users can save properties and download their saved listings as a CSV file.
+
+## 🎯 Project Goals
+
+This project demonstrates practical skills in:
+
+* Python application development
+* Data manipulation with Pandas
+* Interactive data visualization
+* Reactive web application development
+* User interface design
+* Git and GitHub workflow
+* Cloud deployment
+
+## 🔮 Future Improvements
+
+Possible future improvements include:
+
+* Real property database integration
+* User authentication
+* Database storage
+* Advanced property search
+* Real-time property listings
+* Email notifications
+* Agent and property-owner accounts
+* Production API integration
+
+## 👨‍💻 Author
+
+**Milkyas Mekonnen**
+
+GitHub: https://github.com/milkyasmekonneng
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository.
